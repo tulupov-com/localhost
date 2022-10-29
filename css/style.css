@@ -1,92 +1,28 @@
-a {
-    background-color: transparent;
-    -webkit-text-decoration-skip: objects
-}
-
-a:active,
-a:hover {
-    outline-width: 0
-}
-
-*,
-*:after,
-*:before {
-    box-sizing: inherit;
-    margin: 0;
-    padding: 0;
-}
-
-html {
-    box-sizing: border-box;
-    font-size: 1px !important;
-}
-
-body {
-    font: normal 14rem/21rem Arial, 'Helvetica CY', 'Nimbus Sans L', sans-serif;
-    background-color: #E5EEF5;
-}
-
-.outer {
-    display: table;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
+#header {
+    background: rgb(194, 73, 73);
+    color: rgb(0, 2, 90);
     width: 100%;
-}
-
-.middle {
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.inner {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 570rem;
-    min-width: 360rem;
-    padding: 20rem;
-}
-
-.inner_2 {
     height: 300px;
-    background: rgb(206, 22, 22);
 }
 
-h1 {
-    line-height: 48rem;
-    font-size: 48rem;
+.action1 {
+    background: rgb(194, 73, 73);
+    color: rgb(194, 73, 73);
+    width: 100%;
+    height: 300px;
 }
 
-h2 {
-    margin-top: 15rem;
-    line-height: 26rem;
-    font-size: 26rem;
-    margin-bottom: 45rem;
+.action1 > button {
+    background: rgb(17, 146, 0);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    width: 200px;
+    height: 30px;
+    transition: 1.5s;
 }
 
-.button {
-    position: relative;
-    display: inline-block;
-    text-decoration: none;
-    background-color: #F93545;
-    color: #fff;
-    padding: 8rem 16rem;
-    border-radius: 5rem;
-    overflow: hidden;
-    font-size: 16rem;
-    font-weight: bold;
-    text-shadow: 0px 0px 2px #aa0014;
+.action1 > button:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(17, 146, 0);
 }
 
-i {
-    border: solid #fff;
-    border-width: 0 3rem 3rem 0;
-    display: inline-block;
-    padding: 3rem;
-}
-
-.right {
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-}

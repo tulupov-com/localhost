@@ -4,61 +4,41 @@
 <head>
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
-    <link href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQEAYAAABPYyMiAAAABmJLR0T///////8JWPfcAAAACXBIWXMAAABIAAAASABGyWs+AAAAF0lEQVRIx2NgGAWjYBSMglEwCkbBSAcACBAAAeaR9cIAAAAASUVORK5CYII=" rel="icon" type="image/x-icon">
-    <title>Добро пожаловать!</title>
+    <title>Стили для блоков</title>
     <link rel="stylesheet" href="css/style.css">
-    
 </head>
 
 <body>
-    <div class='outer'>
-        <div class='middle'>
-            <div class='inner'>
-                <h1 id='t1'>Добро пожаловать, всем!</h1>
-
-                <h2 id='t2'>Open Server Panel работает ;-)</h2>
-                
-                <iframe width="1120" height="630" src="https://www.youtube.com/embed/NRboALK-dtA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                
-                <a href='https://ospanel.io/docs/' class='button' id='t3'>Руководство пользователя <i class="right"></i></a>
-            </div>
-            <div class="actions">
-                <div class="action_header">
-                    <h3>Акции</h3>
-                </div>
-                <div class="action_list">
-                    <div class="action">
-                        <h4>Акция 1</h4>
-                    </div>
-                    <div class="action">
-
-                    </div>
-                    <div class="action"></div>
-                </div>
-                <div class="actions_buttons">
-
-                </div>
-            </div>
-            <!-- .actions>(.actions_header>h3{Акции})+(.actions_list>.action*3>h4{Акция $})+.actions_buttons -->
-            <div class="actions">
-                <div class="actions_header">
-                    <h3>Акции</h3>
-                </div>
-                <div class="actions_list">
-                    <div class="action">
-                        <h4>Акция 1</h4>
-                    </div>
-                    <div class="action">
-                        <h4>Акция 2</h4>
-                    </div>
-                    <div class="action">
-                        <h4>Акция 3</h4>
-                    </div>
-                </div>
-                <div class="actions_buttons"></div>
-            </div>
+    <!-- секция акции в ней три акции в каждой из акций картинка со ссылкой, заголовок, сам текст и кнопка перехода на страницу акции -->
+    <!-- section#actions>.action*3>(a[href=index$.html]>img)+(h4>lorem2)+(p>lorem)+button -->
+    <section id="actions">
+        <div class="action">
+            <a href="index1.html">
+                <img src="img/kitty.jpg" alt="нет картинки">
+            </a>
+            <h4>Lorem, ipsum.</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque commodi eligendi magni nesciunt similique saepe impedit possimus assumenda sint voluptates nemo accusantium id consequatur, nisi ut sunt quas corporis minima?</p>
+            <button>sdfakjlsfd</button>
         </div>
-    </div>
+        <div class="action1">
+            <a href="index2.html">
+                <img src="" alt="нет картинки">
+            </a>
+            <h4>Corrupti, qui!</h4>
+            <p>Incidunt voluptas rem quo pariatur doloribus possimus debitis aspernatur veritatis assumenda accusantium, quaerat laudantium porro consectetur deleniti! Qui voluptate, adipisci corporis, neque voluptas eaque modi id perspiciatis reprehenderit minima debitis.</p>
+            <button>Кнопка 1</button>
+            <button>Кнопка 2</button>
+        </div>
+        <div class="action2">
+            <a href="index3.html">
+                <img src="" alt="нет картинки">
+            </a>
+            <h4>Aperiam, dolor?</h4>
+            <p>Blanditiis, alias! Libero praesentium dolore aut asperiores voluptatem officia numquam. Enim earum consequuntur placeat? Architecto, libero repellat enim laboriosam consectetur distinctio delectus iste quam provident consequatur eum ratione explicabo veniam!</p>
+            <button>asdfasdfas</button>
+        </div>
+    </section>
+
     <script src="js/scripts.js"></script>
 </body>
 
