@@ -14,7 +14,6 @@ a:hover {
     box-sizing: inherit;
     margin: 0;
     padding: 0;
-    color: rgb(90, 236, 61);
 }
 
 html {
@@ -47,6 +46,11 @@ body {
     max-width: 570rem;
     min-width: 360rem;
     padding: 20rem;
+}
+
+.inner_2 {
+    height: 300px;
+    background: rgb(206, 22, 22);
 }
 
 h1 {
